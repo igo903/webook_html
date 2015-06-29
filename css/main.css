@@ -1,0 +1,18 @@
+.layout1200 { width: 1200px; margin: 0px auto; }
+
+.advHeader { background-color: #312d2d; height: 70px; line-height: 70px; text-align: center; color: #fff; font-size: 16px; }
+
+.header { height: 100px; position: relative; width: 100%; position: relative; background: #fff url(../images/logo.jpg) 25px 25px no-repeat; }
+.header .nav { font-size: 16px; margin: 0px 0 0 250px; }
+.header .nav li { float: left; margin: 0px 25px; }
+.header .nav a { color: #000; line-height: 100px; }
+.header .nav a:hover { text-decoration: underline; }
+.header .rgt { position: absolute; right: 30px; top: 0px; }
+.header .rgt .loginfn { float: left; color: #f36127; }
+.header .rgt .loginfn a { color: #f36127; }
+
+.fullSlidebg { height: 795px; width: 100%; background-image: url(../images/airchina.jpg); overflow: hidden; position: relative; }
+.fullSlidebg .leftDescribe { width: 420px; height: 720px; font-size: 18px; color: #fff; }
+.fullSlidebg .leftDescribe h1 { font-size: 40px; }
+
+.wrapper { width: 1200px; margin: 0px auto; }
