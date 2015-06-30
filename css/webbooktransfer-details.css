@@ -1,0 +1,220 @@
+.webbooktransfer {
+  padding: 28px 0 68px;
+  background: #f1efef; }
+  .webbooktransfer .back-history-links {
+    font-family: "Helvetica Neue";
+    font-size: 15px; }
+    .webbooktransfer .back-history-links .history-link {
+      color: #b2b1b1;
+      text-decoration: underline; }
+    .webbooktransfer .back-history-links .current-link {
+      color: #000; }
+  .webbooktransfer .webbooktransfer-container {
+    margin-top: 44px;
+    overflow: hidden; }
+    .webbooktransfer .webbooktransfer-container .left-sidebar {
+      width: 176px;
+      height: 156px;
+      background: #fff; }
+      .webbooktransfer .webbooktransfer-container .left-sidebar ul li {
+        height: 52px;
+        line-height: 52px;
+        position: relative; }
+        .webbooktransfer .webbooktransfer-container .left-sidebar ul li a {
+          display: block;
+          color: #000;
+          font-size: 15px;
+          padding-left: 40px; }
+          .webbooktransfer .webbooktransfer-container .left-sidebar ul li a i {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 15px;
+            left: 12px; }
+          .webbooktransfer .webbooktransfer-container .left-sidebar ul li a .icon-edit {
+            background-image: url("../images/edit.png"); }
+          .webbooktransfer .webbooktransfer-container .left-sidebar ul li a .icon-pay {
+            background-image: url("../images/pay.png"); }
+          .webbooktransfer .webbooktransfer-container .left-sidebar ul li a .icon-cancel {
+            background-image: url("../images/cancel.png"); }
+    .webbooktransfer .webbooktransfer-container .center-content {
+      width: 638px;
+      height: 920px;
+      margin: 0 28px;
+      background: #fff; }
+      .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details {
+        padding: 45px 85px;
+        box-sizing: border-box; }
+        .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details h2.title {
+          padding-bottom: 30px;
+          font-size: 30px;
+          font-weight: bold;
+          border-bottom: 1px solid #c9c9c9; }
+        .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .status-card {
+          border-bottom: 1px solid #c9c9c9;
+          padding-bottom: 8px; }
+          .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .status-card .status {
+            padding: 24px 0 12px; }
+            .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .status-card .status span {
+              font-size: 15px; }
+              .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .status-card .status span:last-child {
+                color: #f36c4e; }
+          .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .status-card .personal-info {
+            overflow: hidden; }
+            .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .status-card .personal-info img {
+              width: 80px;
+              height: 80px; }
+            .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .status-card .personal-info ul {
+              margin-left: 20px; }
+              .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .status-card .personal-info ul li {
+                margin-bottom: 16px; }
+              .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .status-card .personal-info ul .name {
+                font-size: 20px;
+                font-weight: bold; }
+              .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .status-card .personal-info ul .tag {
+                font-size: 13px;
+                color: #d0d0d0; }
+              .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .status-card .personal-info ul .phone {
+                font-size: 15px;
+                color: #9c9c9c; }
+        .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .airplane-card {
+          margin-top: 20px;
+          border-bottom: 1px solid #c9c9c9;
+          overflow: hidden; }
+          .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .airplane-card ul li {
+            float: left;
+            width: 234px;
+            line-height: 32px;
+            position: relative;
+            margin-bottom: 22px;
+            font-size: 15px;
+            padding-left: 36px;
+            box-sizing: border-box; }
+            .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .airplane-card ul li i {
+              width: 32px;
+              height: 32px;
+              position: absolute;
+              left: 0; }
+            .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .airplane-card ul li .icon-address {
+              background-image: url("../images/address.png"); }
+            .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .airplane-card ul li .icon-clock {
+              background-image: url("../images/icon-clock.png");
+              background-repeat: no-repeat;
+              top: 4px; }
+            .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .airplane-card ul li .icon-passenger {
+              background-image: url("../images/icon-passenger.png");
+              background-repeat: no-repeat;
+              top: 2px; }
+            .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .airplane-card ul li .icon-airplane {
+              background-image: url("../images/icon-airplane.png");
+              background-repeat: no-repeat;
+              top: 4px;
+              left: 4px; }
+            .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .airplane-card ul li .icon-phone {
+              background-image: url("../images/phone.png"); }
+        .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .invoice-card,
+        .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .rating-card {
+          padding: 26px 0;
+          position: relative; }
+          .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .invoice-card h3,
+          .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .rating-card h3 {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 24px; }
+          .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .invoice-card .more-btn,
+          .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .rating-card .more-btn {
+            width: 66px;
+            height: 30px;
+            line-height: 30px;
+            display: inline-block;
+            color: #fff;
+            background: #f26c4f;
+            text-align: center;
+            position: absolute;
+            right: 0;
+            bottom: 26px; }
+        .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .invoice-card {
+          border-bottom: 1px solid #c9c9c9; }
+          .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .invoice-card .invoice-status {
+            margin-bottom: 18px; }
+          .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .invoice-card .invoice-status span,
+          .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .invoice-card .total-amount span {
+            width: 144px;
+            display: inline-block;
+            font-size: 15px; }
+        .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .rating-card ul {
+          margin-bottom: 40px;
+          overflow: hidden; }
+          .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .rating-card ul li {
+            float: left;
+            margin-right: 22px; }
+            .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .rating-card ul li:last-child {
+              margin-right: 0; }
+        .webbooktransfer .webbooktransfer-container .center-content .webbooktransfer-details .rating-card .no-comment {
+          color: #999; }
+    .webbooktransfer .webbooktransfer-container .right-sidebar {
+      width: 328px;
+      height: 450px;
+      background: #e8e4e4;
+      border: 1px solid #c9c9c9;
+      position: relative; }
+      .webbooktransfer .webbooktransfer-container .right-sidebar .chat-head h4 {
+        height: 40px;
+        line-height: 40px;
+        padding-left: 12px;
+        border-bottom: 1px solid #c9c9c9;
+        background: #fff;
+        font-size: 15px;
+        font-weight: bold; }
+      .webbooktransfer .webbooktransfer-container .right-sidebar .chat-panel {
+        padding: 16px; }
+        .webbooktransfer .webbooktransfer-container .right-sidebar .chat-panel .chat-item {
+          margin-bottom: 30px;
+          overflow: hidden; }
+          .webbooktransfer .webbooktransfer-container .right-sidebar .chat-panel .chat-item img {
+            width: 46px;
+            height: 46px; }
+          .webbooktransfer .webbooktransfer-container .right-sidebar .chat-panel .chat-item .chat-details {
+            width: 236px;
+            overflow: hidden; }
+            .webbooktransfer .webbooktransfer-container .right-sidebar .chat-panel .chat-item .chat-details .chat-info {
+              margin-bottom: 6px;
+              overflow: hidden; }
+              .webbooktransfer .webbooktransfer-container .right-sidebar .chat-panel .chat-item .chat-details .chat-info .name {
+                color: #f26c4f;
+                font-size: 13px;
+                font-weight: bold; }
+              .webbooktransfer .webbooktransfer-container .right-sidebar .chat-panel .chat-item .chat-details .chat-info .time {
+                color: #999999; }
+            .webbooktransfer .webbooktransfer-container .right-sidebar .chat-panel .chat-item .chat-details .chat-word {
+              border: 1px solid #d2d2d2;
+              background: #fff;
+              border-radius: 4px;
+              padding: 8px 12px; }
+        .webbooktransfer .webbooktransfer-container .right-sidebar .chat-panel .chat-left .chat-details {
+          margin-left: 14px; }
+        .webbooktransfer .webbooktransfer-container .right-sidebar .chat-panel .chat-right .chat-details {
+          margin-right: 14px; }
+      .webbooktransfer .webbooktransfer-container .right-sidebar .send-chat {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 54px;
+        padding: 12px;
+        background: #fff;
+        box-sizing: border-box; }
+        .webbooktransfer .webbooktransfer-container .right-sidebar .send-chat .send-chat-input {
+          width: 236px;
+          height: 28px;
+          border: 1px solid #bfbfbf; }
+        .webbooktransfer .webbooktransfer-container .right-sidebar .send-chat .send-chat-btn {
+          width: 54px;
+          height: 30px;
+          background: #f26c4f;
+          color: #fff;
+          border: none;
+          outline: none; }
+
+/*# sourceMappingURL=webbooktransfer-details.css.map */
