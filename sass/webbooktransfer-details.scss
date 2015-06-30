@@ -1,0 +1,350 @@
+.webbooktransfer{
+  padding: 28px 0 68px;;
+  background: #f1efef;
+
+  .back-history-links{
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+
+    .history-link{
+      color: #b2b1b1;
+      text-decoration: underline;
+    }
+
+    .current-link{
+      color: #000;
+    }
+
+  }
+
+  .webbooktransfer-container{
+    margin-top: 44px;
+    overflow: hidden;
+
+    .left-sidebar{
+      width: 176px;
+      height: 156px;
+      background: #fff;
+
+      ul{
+        li{
+          height: 52px;
+          line-height: 52px;
+          position: relative;
+          a{
+            display: block;
+            color: #000;
+            font-size: 15px;
+            padding-left: 40px;
+            i{
+              width: 20px;
+              height: 20px;
+              position: absolute;
+              top: 15px;
+              left: 12px;
+            }
+            .icon-edit{
+              background-image: url("../images/edit.png");
+            }
+            .icon-pay{
+              background-image: url("../images/pay.png");
+            }
+            .icon-cancel{
+              background-image: url("../images/cancel.png");
+            }
+          }
+        }
+      }
+
+    }
+
+    .center-content{
+      width: 638px;
+      height: 920px;
+      margin: 0 28px;
+      background: #fff;
+
+      .webbooktransfer-details{
+        padding: 45px 85px;
+        box-sizing: border-box;
+
+        h2.title{
+          padding-bottom: 30px;
+          font-size: 30px;
+          font-weight: bold;
+          border-bottom: 1px solid #c9c9c9;
+        }
+
+        .status-card{
+          border-bottom: 1px solid #c9c9c9;
+          padding-bottom: 8px;
+
+          .status{
+            padding: 24px 0 12px;
+            span{
+              font-size: 15px;
+              &:last-child{
+                color: #f36c4e;
+              }
+            }
+          }
+
+          .personal-info{
+            overflow: hidden;
+
+            img{
+              width: 80px;
+              height: 80px;
+            }
+
+            ul{
+              margin-left: 20px;
+
+              li{
+                margin-bottom: 16px;
+              }
+
+              .name{
+                font-size: 20px;
+                font-weight: bold;
+              }
+
+              .tag{
+                font-size: 13px;
+                color: #d0d0d0;
+              }
+
+              .phone{
+                font-size: 15px;
+                color: #9c9c9c;
+              }
+
+            }
+
+          }
+
+        }
+
+        .airplane-card{
+          margin-top: 20px;
+          border-bottom: 1px solid #c9c9c9;
+          overflow: hidden;
+
+          ul{
+            li{
+              float: left;
+              width: 234px;
+              line-height: 32px;
+              position: relative;
+              margin-bottom: 22px;
+              font-size: 15px;
+              padding-left: 36px;
+              box-sizing: border-box;
+              i{
+                width: 32px;
+                height: 32px;
+                position: absolute;
+                left: 0;
+              }
+              .icon-address{
+                background-image: url("../images/address.png");
+              }
+              .icon-clock{
+                background-image: url("../images/icon-clock.png");
+                background-repeat: no-repeat;
+                top: 4px;
+              }
+              .icon-passenger{
+                background-image: url("../images/icon-passenger.png");
+                background-repeat: no-repeat;
+                top: 2px;
+              }
+              .icon-airplane{
+                background-image: url("../images/icon-airplane.png");
+                background-repeat: no-repeat;
+                top: 4px;
+                left: 4px;
+              }
+              .icon-phone{
+                background-image: url("../images/phone.png");
+              }
+            }
+          }
+        }
+
+        .invoice-card,
+        .rating-card{
+          padding: 26px 0;
+          position: relative;
+
+          h3{
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 24px;
+          }
+
+          .more-btn{
+            width: 66px;
+            height: 30px;
+            line-height: 30px;
+            display: inline-block;
+            color: #fff;
+            background: #f26c4f;
+            text-align: center;
+            position: absolute;
+            right: 0;
+            bottom: 26px
+          }
+
+        }
+
+        .invoice-card{
+          border-bottom: 1px solid #c9c9c9;
+
+          .invoice-status{
+            margin-bottom: 18px;
+          }
+          .invoice-status,
+          .total-amount{
+            span{
+              width: 144px;
+              display: inline-block;
+              font-size: 15px;
+            }
+          }
+
+        }
+
+        .rating-card{
+          ul{
+            margin-bottom: 40px;
+            overflow: hidden;
+
+            li{
+              float: left;
+              margin-right: 22px;
+              &:last-child{
+                margin-right: 0;
+              }
+            }
+          }
+
+          .no-comment{
+            color: #999;
+          }
+
+        }
+
+      }
+
+    }
+
+    .right-sidebar{
+      width: 328px;
+      height: 450px;
+      background: #e8e4e4;
+      border: 1px solid #c9c9c9;
+      position: relative;
+
+      .chat-head{
+        h4{
+          height: 40px;
+          line-height: 40px;
+          padding-left: 12px;
+          border-bottom: 1px solid #c9c9c9;
+          background: #fff;
+          font-size: 15px;
+          font-weight: bold;
+        }
+      }
+
+      .chat-panel{
+        padding: 16px;
+
+        .chat-item{
+          margin-bottom: 30px;
+          overflow: hidden;
+
+          img{
+            width: 46px;
+            height: 46px;
+          }
+
+          .chat-details{
+            width: 236px;
+            overflow: hidden;
+
+            .chat-info{
+              margin-bottom: 6px;
+              overflow: hidden;
+
+              .name{
+                color: #f26c4f;
+                font-size: 13px;
+                font-weight: bold;
+              }
+
+              .time{
+                color: #999999;
+              }
+
+            }
+
+            .chat-word{
+              border: 1px solid #d2d2d2;
+              background: #fff;
+              border-radius: 4px;
+              padding: 8px 12px;
+            }
+
+          }
+
+        }
+
+        .chat-left{
+          .chat-details{
+            margin-left: 14px;
+          }
+        }
+
+        .chat-right{
+          .chat-details{
+            margin-right: 14px;
+          }
+        }
+
+      }
+
+      .send-chat{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 54px;
+        padding: 12px;
+        background: #fff;
+        box-sizing: border-box;
+
+        .send-chat-input{
+          width: 236px;
+          height: 28px;
+          border: 1px solid #bfbfbf;
+        }
+
+        .send-chat-btn{
+          width: 54px;
+          height: 30px;
+          background: #f26c4f;
+          color: #fff;
+          border: none;
+          outline: none;
+        }
+
+      }
+
+    }
+
+  }
+
+}
