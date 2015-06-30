@@ -10,8 +10,10 @@
 			&:hover{text-decoration: underline;}
 		}
 	}
-	.rgt{position: absolute;right:30px;top: 0px;
+	.rgt{position: absolute;right:30px;top: 35px;width: 200px;font-size: 16px;
+		.language{margin-left: 20px;float: left;}
 		.loginfn{float: left;color:#f36127;
+			&.divide{margin: 0px 5px;}
 			a{color:#f36127;}
 		}
 	}
