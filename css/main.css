@@ -1,20 +1,23 @@
+@font-face { font-family: 'Helvetica Neue'; src: url("Helvetica-Neue-webfont.eot"); src: url("Helvetica-Neue-webfont.eot?#iefix") format("embedded-opentype"), url("Helvetica-Neue-webfont.woff") format("woff"), url("Helvetica-Neue-webfont.ttf") format("truetype"), url("Helvetica-Neue-webfont.svg#Helvetica Neue") format("svg"); }
 .layout1200 { width: 1200px; margin: 0px auto; }
 
 .advHeader { background-color: #312d2d; height: 70px; line-height: 70px; text-align: center; color: #fff; font-size: 16px; }
 
 .header { height: 100px; position: relative; width: 100%; position: relative; background: #fff url(../images/logo.jpg) 25px 25px no-repeat; }
-.header .nav { font-size: 16px; margin: 0px 0 0 250px; }
+.header .nav { font-size: 16px; margin: 0px 0 0 250px; line-height: 100px; display: inline-block; }
 .header .nav li { float: left; margin: 0px 25px; }
-.header .nav a { color: #000; line-height: 100px; }
+.header .nav a { color: #000; }
 .header .nav a:hover { text-decoration: underline; }
-.header .rgt { position: absolute; right: 30px; top: 35px; width: 200px; font-size: 16px; }
+.header .rgt { position: absolute; right: 30px; top: 37px; width: 200px; font-size: 16px; }
 .header .rgt .language { margin-left: 20px; float: left; }
 .header .rgt .loginfn { float: left; color: #f36127; }
 .header .rgt .loginfn.divide { margin: 0px 5px; }
 .header .rgt .loginfn a { color: #f36127; }
 
 .fullSlidebg { height: 795px; width: 100%; background-image: url(../images/airchina.jpg); overflow: hidden; position: relative; }
-.fullSlidebg .leftDescribe { width: 420px; height: 720px; font-size: 18px; color: #fff; }
-.fullSlidebg .leftDescribe h1 { font-size: 40px; }
+.fullSlidebg .leftDescribe { width: 570px; height: 720px; font-size: 18px; color: #fff; margin: 30px 0 0 100px; line-height: 22px; }
+.fullSlidebg .leftDescribe h1 { font-size: 60px; margin: 20px 0; height: 60px; line-height: 60px; }
+.fullSlidebg .leftDescribe h2 { font-weight: normal; margin: 20px 0; font-size: 25px; line-height: 25px; }
+.fullSlidebg .leftDescribe ul li { margin: 25px 0px; padding: 0 0 0 30px; font-size: 25px; line-height: 25px; }
 
 .wrapper { width: 1200px; margin: 0px auto; }
