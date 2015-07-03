@@ -1,0 +1,148 @@
+.web-homepage {
+  background: #f2f2f2;
+  width: 100%; }
+  .web-homepage .btn, .web-homepage .slide-container .slide-item .slide-item-intro .book-guide-btn, .web-homepage .ask-banner .ask-profile .ask-local-btn, .web-homepage .transfer-banner .book-car-btn {
+    display: block;
+    color: #fff;
+    background: #f26c4f;
+    font-size: 30px;
+    width: 250px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center; }
+  .web-homepage .slide-container {
+    width: 100%; }
+    .web-homepage .slide-container .slide-item {
+      position: relative; }
+      .web-homepage .slide-container .slide-item .slide-img {
+        max-width: 100%; }
+      .web-homepage .slide-container .slide-item .slide-item-intro {
+        position: absolute;
+        top: 165px;
+        left: 0;
+        right: 0; }
+        .web-homepage .slide-container .slide-item .slide-item-intro h1 {
+          text-align: right;
+          font-size: 60px;
+          color: #fff;
+          margin-bottom: 50px; }
+    .web-homepage .slide-container .slick-dots {
+      bottom: 25px; }
+  .web-homepage .videos-container {
+    width: 100%; }
+    .web-homepage .videos-container .slide-videos .slide-video-item {
+      position: relative;
+      margin-right: 8px; }
+      .web-homepage .videos-container .slide-videos .slide-video-item > img {
+        width: 100%;
+        height: 220px; }
+      .web-homepage .videos-container .slide-videos .slide-video-item .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center; }
+        .web-homepage .videos-container .slide-videos .slide-video-item .overlay p {
+          color: #fff;
+          font-size: 15px;
+          margin: 50px 0; }
+        .web-homepage .videos-container .slide-videos .slide-video-item .overlay img {
+          display: inline-block; }
+    .web-homepage .videos-container .slide-videos .slick-prev {
+      left: -45px; }
+    .web-homepage .videos-container .slide-videos .slick-next {
+      right: -45px; }
+    .web-homepage .videos-container .slide-videos .slick-prev, .web-homepage .videos-container .slide-videos .slick-next {
+      width: 30px;
+      height: 30px; }
+    .web-homepage .videos-container .slide-videos .slick-prev:before, .web-homepage .videos-container .slide-videos .slick-next:before {
+      color: #B09E9E;
+      font-size: 30px; }
+  .web-homepage .ask-banner {
+    width: 100%;
+    position: relative; }
+    .web-homepage .ask-banner img {
+      width: 100%; }
+    .web-homepage .ask-banner .ask-profile {
+      position: absolute;
+      top: 120px;
+      left: 0;
+      right: 0; }
+      .web-homepage .ask-banner .ask-profile p {
+        font-size: 40px;
+        margin-bottom: 30px;
+        color: #fff; }
+  .web-homepage .ask-content {
+    margin: 112px auto 208px;
+    overflow: hidden; }
+    .web-homepage .ask-content .bucket-list,
+    .web-homepage .ask-content .faqs {
+      width: 585px;
+      float: left; }
+      .web-homepage .ask-content .bucket-list p,
+      .web-homepage .ask-content .faqs p {
+        margin-top: 26px;
+        color: #b2b2b2;
+        font-size: 15px; }
+    .web-homepage .ask-content .bucket-list {
+      margin-right: 30px; }
+  .web-homepage .transfer-banner {
+    position: relative; }
+    .web-homepage .transfer-banner img {
+      max-width: 100%; }
+    .web-homepage .transfer-banner .door-service {
+      position: absolute;
+      top: 100px;
+      left: 0;
+      right: 0; }
+    .web-homepage .transfer-banner p {
+      color: #fff;
+      font-size: 30px;
+      text-align: right; }
+      .web-homepage .transfer-banner p span {
+        font-size: 60px; }
+    .web-homepage .transfer-banner .desc {
+      margin-bottom: 30px; }
+  .web-homepage .recommend-places {
+    margin: 60px auto 130px; }
+    .web-homepage .recommend-places .recommed-column {
+      overflow: hidden;
+      margin-bottom: 56px; }
+      .web-homepage .recommend-places .recommed-column .recommend-places-title {
+        overflow: hidden;
+        margin-bottom: 24px; }
+        .web-homepage .recommend-places .recommed-column .recommend-places-title p {
+          font-size: 25px; }
+      .web-homepage .recommend-places .recommed-column .recommend-list {
+        position: relative;
+        width: 586px;
+        margin-right: 28px; }
+        .web-homepage .recommend-places .recommed-column .recommend-list > img {
+          width: 100%;
+          height: 284px; }
+        .web-homepage .recommend-places .recommed-column .recommend-list .details {
+          position: absolute;
+          bottom: 15px;
+          left: 0;
+          right: 0;
+          padding: 0 12px;
+          color: #fff;
+          font-size: 18px;
+          font-weight: bold; }
+        .web-homepage .recommend-places .recommed-column .recommend-list:last-child {
+          margin-right: 0; }
+  .web-homepage .download-app {
+    background: #FFF; }
+    .web-homepage .download-app .download-content p {
+      font-size: 55px;
+      font-weight: bold;
+      padding: 90px 0 60px; }
+    .web-homepage .download-app .download-content .phone-demo {
+      position: relative;
+      top: -82px; }
+  .web-homepage .footer .copyright {
+    padding-bottom: 44px;
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=webhomepage.css.map */
