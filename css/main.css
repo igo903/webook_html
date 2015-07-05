@@ -3,7 +3,7 @@
 
 .advHeader { background-color: #312d2d; height: 70px; line-height: 70px; text-align: center; color: #fff; font-size: 16px; }
 
-.header { height: 100px; position: relative; width: 100%; position: relative; background: #fff url(../images/logo.jpg) 25px 25px no-repeat; }
+.header { position: relative; width: 100%; position: relative; background: #fff url(../images/logo.jpg) 25px 25px no-repeat; }
 .header .nav { font-size: 16px; margin: 0px 0 0 250px; line-height: 100px; display: inline-block; }
 .header .nav li { float: left; margin: 0px 25px; }
 .header .nav a { color: #000; }
