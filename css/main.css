@@ -3,7 +3,7 @@
 
 .advHeader { background-color: #312d2d; height: 70px; line-height: 70px; text-align: center; color: #fff; font-size: 16px; }
 
-.header { position: relative; width: 100%; position: relative; background: #fff url(../images/logo.jpg) 25px 25px no-repeat; }
+.header { height: 100px; position: relative; width: 100%; position: relative; background: #fff url(../images/logo.jpg) 25px 25px no-repeat; }
 .header .nav { font-size: 16px; margin: 0px 0 0 250px; line-height: 100px; display: inline-block; }
 .header .nav li { float: left; margin: 0px 25px; }
 .header .nav a { color: #000; }
@@ -28,9 +28,13 @@
 .header #func-nav-wrap ul ul ul { top: 0; left: 100%; }
 
 .fullSlidebg { height: 795px; width: 100%; background-image: url(../images/airchina.jpg); overflow: hidden; position: relative; }
-.fullSlidebg .leftDescribe { width: 570px; height: 720px; font-size: 18px; color: #fff; margin: 30px 0 0 100px; line-height: 22px; }
+.fullSlidebg .leftDescribe { width: 570px; height: 720px; font-size: 18px; color: #fff; padding: 30px 0 0 100px; line-height: 22px; background: url(../images/note.png) right 550px no-repeat; }
 .fullSlidebg .leftDescribe h1 { font-size: 60px; margin: 20px 0; height: 60px; line-height: 60px; }
 .fullSlidebg .leftDescribe h2 { font-weight: normal; margin: 20px 0; font-size: 25px; line-height: 25px; }
-.fullSlidebg .leftDescribe ul li { margin: 25px 0px; padding: 0 0 0 30px; font-size: 25px; line-height: 25px; }
+.fullSlidebg .leftDescribe ul li { margin: 25px 0px; padding: 10px 0 10px 70px; font-size: 25px; line-height: 25px; }
+.fullSlidebg .leftDescribe ul li.wall { background: url(../images/icon-greatwall-white.png) left center no-repeat; }
+.fullSlidebg .leftDescribe ul li.safe { background: url(../images/icon-safe-white.png) left center no-repeat; }
+.fullSlidebg .leftDescribe ul li.drive { background: url(../images/icon-drive-white.png) left center no-repeat; }
+.fullSlidebg .leftDescribe ul li.one { background: url(../images/icon-passenger-white.png) left center no-repeat; }
 
 .wrapper { width: 1200px; margin: 0px auto; }

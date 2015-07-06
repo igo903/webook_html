@@ -90,11 +90,17 @@ $helvetica:"Helvetica Neue", Helvetica, Arial, sans-serif;
 
 .fullSlidebg{
 	height: 795px;width: 100%;background-image: url(../images/airchina.jpg);overflow: hidden;position: relative;
-	.leftDescribe{width: 570px;height: 720px;font-size: 18px;color:#fff;margin: 30px 0 0 100px;line-height: 22px;
+	.leftDescribe{width: 570px;height: 720px;font-size: 18px;color:#fff;padding: 30px 0 0 100px;line-height: 22px;
+		background: url(../images/note.png) right 550px no-repeat;
 		h1{font-size: 60px;margin: 20px 0;height: 60px;line-height: 60px;}
 		h2{font-weight: normal;margin: 20px 0;font-size: 25px;line-height: 25px;}
 		ul{
-			li{margin: 25px 0px; padding: 0 0 0 30px;font-size: 25px;line-height: 25px;}
+			li{margin: 25px 0px; padding: 10px 0 10px 70px;font-size: 25px;line-height: 25px;
+				&.wall{background: url(../images/icon-greatwall-white.png) left center no-repeat;}
+				&.safe{background: url(../images/icon-safe-white.png) left center no-repeat;}
+				&.drive{background: url(../images/icon-drive-white.png) left center no-repeat;}
+				&.one{background: url(../images/icon-passenger-white.png) left center no-repeat;}
+			}
 		}
 	}
 }
