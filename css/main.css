@@ -3,16 +3,29 @@
 
 .advHeader { background-color: #312d2d; height: 70px; line-height: 70px; text-align: center; color: #fff; font-size: 16px; }
 
-.header { height: 100px; position: relative; width: 100%; position: relative; background: #fff url(../images/logo.jpg) 25px 25px no-repeat; }
+.header { position: relative; width: 100%; height: 100px; background: #fff url(../images/logo.jpg) 25px 25px no-repeat; }
 .header .nav { font-size: 16px; margin: 0px 0 0 250px; line-height: 100px; display: inline-block; }
 .header .nav li { float: left; margin: 0px 25px; }
 .header .nav a { color: #000; }
 .header .nav a:hover { text-decoration: underline; }
-.header .rgt { position: absolute; right: 30px; top: 37px; width: 200px; font-size: 16px; }
-.header .rgt .language { margin-left: 20px; float: left; }
-.header .rgt .loginfn { float: left; color: #f36127; }
-.header .rgt .loginfn.divide { margin: 0px 5px; }
-.header .rgt .loginfn a { color: #f36127; }
+.header #func-nav-wrap { font-size: 16px; margin-top: 37px; margin-right: 40px; }
+.header #func-nav-wrap ul { list-style: none; position: relative; float: left; margin: 0; padding: 0 a; padding-display: block; padding-color: #333; padding-text-decoration: none; padding-font-weight: 700; padding-font-size: 12px; padding-line-height: 32px; padding-padding: 0 15px; }
+.header #func-nav-wrap ul li { position: relative; float: left; margin: 0; padding: 0; }
+.header #func-nav-wrap ul li.loginfn { color: #f36127; }
+.header #func-nav-wrap ul li.loginfn a { color: #f36127; }
+.header #func-nav-wrap ul li.language { margin-left: 35px; width: 100px; }
+.header #func-nav-wrap ul li.language > a { color: #000; height: 30px; line-height: 30px; display: block; padding-right: 30px; background: #fff url(../images/arrow01.png) 70px center no-repeat; }
+.header #func-nav-wrap ul li.language > a:hover { text-decoration: none; }
+.header #func-nav-wrap ul li.current-menu-item { background: #ddd; }
+.header #func-nav-wrap ul li.divide { margin: 0px 5px; }
+.header #func-nav-wrap ul li:hover > ul { display: block; }
+.header #func-nav-wrap ul ul { display: none; position: absolute; top: 100%; left: -30px; top: 30px; background: #fff; padding: 0; z-index: 9; }
+.header #func-nav-wrap ul ul.others { border: 1px solid #999; }
+.header #func-nav-wrap ul ul.others a { color: #000; width: 120px; height: 30px; line-height: 30px; display: block; text-align: center; }
+.header #func-nav-wrap ul ul.others a:hover { display: block; text-decoration: none; color: #fff; background: #ccc; text-align: center; }
+.header #func-nav-wrap ul ul li { float: none; }
+.header #func-nav-wrap ul ul a { width: 120px; height: 30px; line-height: 30px; }
+.header #func-nav-wrap ul ul ul { top: 0; left: 100%; }
 
 .fullSlidebg { height: 795px; width: 100%; background-image: url(../images/airchina.jpg); overflow: hidden; position: relative; }
 .fullSlidebg .leftDescribe { width: 570px; height: 720px; font-size: 18px; color: #fff; margin: 30px 0 0 100px; line-height: 22px; }
