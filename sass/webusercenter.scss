@@ -1,0 +1,112 @@
+#webUserCenter{
+  background: #f1efef;
+  padding: 28px 0 68px;
+
+  .left-sidebar{
+    background: #F1EFEF;
+    .user-profile{
+      background: #fff;
+      .user-avatar{
+        padding: 40px;
+        background: #fbf9f9;
+        text-align: center;
+        img{
+          text-align: center;
+        }
+      }
+      .edit-profile{
+        height: 40px;
+        padding: 0 10px;
+        span{
+          float: left;
+          width: 50%;
+          line-height: 40px;
+          &.user-name{
+            font-size: 16px;
+            font-weight: bold;
+          }
+          &.edit{
+            text-align: right;
+            font-size: 13px;
+            a{
+              color: #f2785e;
+            }
+          }
+        }
+      }
+    }
+    ul{
+      background: #fff;
+      margin-top: 18px;
+      padding: 10px 0;
+      li{
+        height: 40px;
+        line-height: 40px;
+        a{
+          text-decoration: none;
+          margin: 10px;
+          padding-left: 10px;
+          &:hover{
+            background: #f16c4e;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .center-content{
+    padding: 35px 30px;
+    box-sizing: border-box;
+    min-height: 950px;
+    h2{
+      padding-bottom: 26px;
+      border-bottom: 1px solid #b4b4b4;
+    }
+    .booking-list{
+      padding: 20px 0;
+      border-bottom: 1px solid #b4b4b4;
+      .booking-details{
+        width: 482px;
+        margin-left: 22px;
+        .airplane-address{
+          margin-bottom: 14px;
+          h5{
+            font-size: 20px;
+            font-weight: bold;
+          }
+          .message-count{
+            font-size: 14px;
+            width: 18px;
+            height: 18px;
+            line-height: 18px;
+            color: #fff;
+            background: #f46c50;
+            text-align: center;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 22px;
+          }
+          .status{
+            color: #f46c50;
+            font-size: 15px;
+          }
+        }
+        .airplane-time{
+          p{
+            font-size: 16px;
+          }
+          .details-btn{
+            width: 70px;
+            height: 30px;
+            line-height: 30px;
+            background: #f46c50;
+            color: #fff;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+}

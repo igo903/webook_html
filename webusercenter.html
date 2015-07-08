@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>webdestination</title>
+  <title>webusercenter</title>
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/main.css">
 
   <link rel="stylesheet" href="css/transfer.css">
   <link rel="stylesheet" href="css/webbooktransfer-details.css">
+  <link rel="stylesheet" href="css/webusercenter.css">
 
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/common.js"></script>
@@ -44,43 +45,72 @@
     </div>
   </div>
 
-  <div class="webdestination-details">
+  <div id="webUserCenter">
     <div class="layout1200 fullOne">
-      <div class="back-history-links">
-        <a href="javascript:;" class="history-link">Home</a> >
-        <a href="javascript:;" class="history-link">Book a guide</a> >
-        <a href="javascript:;" class="history-link">Destinations</a> >
-        <a href="javascript:;" class="current-link">Tianman Square</a>
-      </div>
 
-      <div class="webdestination-details-container column-layout">
+      <div class="usercenter-details-container column-layout">
 
         <div class="left-sidebar fn-left">
-          <h5>Beijing</h5>
+          <div class="user-profile">
+            <div class="user-avatar">
+              <img src="images/avatar.png" alt="">
+            </div>
+            <div class="edit-profile">
+              <span class="user-name text-center">Louis Wang</span>
+              <span class="edit"><a href="javascript:;">Edit</a></span>
+            </div>
+          </div>
+
           <ul>
-            <li><a href="javascript:;">tiananmen Square</li>
-            <li><a href="javascript:;">The Great Wall</li>
-            <li><a href="javascript:;">Summer palace</li>
-            <li><a href="javascript:;">Tongluoxiang</li>
-            <li><a href="javascript:;">Forbidden city</li>
-            <li><a href="javascript:;">tiananmen Square</li>
-            <li><a href="javascript:;">The Great Wall</li>
-            <li><a href="javascript:;">Summer palace</a></li>
-            <li><a href="javascript:;">Tongluoxiang</a></li>
-            <li><a href="javascript:;">Forbidden city</a></li>
+            <li><a href="javascript:;">My bookings</a></li>
+            <li><a href="javascript:;">My guides</a></li>
+            <li><a href="javascript:;">Help center</a></li>
+            <li><a href="javascript:;">Log out</a></li>
           </ul>
+
         </div>
 
         <div class="center-content fn-left">
-          <article class="city-details">
-            <img src="images/city1.png" alt="">
-            <div class="desc">
-              <h2>Forbidden City</h2>
-              <p>The Forbidden City was the Chinese imperial palace from the Ming dynasty to the end of the Qing dynasty. It is located in the center of Beijing, China, and now houses the Palace Museum. It served as the home of emperors and their households as well as the ceremonial and political center of Chinese government for almost 500 years.</p>
-              <p>Built in 1406 to 1420, the complex consists of 980 buildings and covers 72 ha (180 acres).[1] The palace complex exemplifies traditional Chinese palatial architecture,[2] and has influenced cultural and architectural developments in East Asia and elsewhere. The Forbidden City was declared a World Heritage Site in 1987,[2] and is listed by UNESCO as the largest collection of preserved ancient wooden structures in the world.</p>
-              <p>Since 1925, the Forbidden City has been under the charge of the Palace Museum, whose extensive collection of artwork and artifacts were built upon the imperial collections of the Ming and Qing dynasties. Part of the museum's former collection is now located in the National Palace Museum in Taipei. Both museums descend from the same institution, but were split after the Chinese Civil War.</p>
+          <h2>My bookings</h2>
+          <div class="booking-list fn-clear">
+            <img src="images/my-booking-placeholder1.png" alt="" class="fn-left">
+            <div class="booking-details fn-left">
+              <div class="airplane-address fn-clear">
+                <h5 class="fn-left">Beijing <span class="message-count">2</span></h5>
+                <span class="fn-right status">upcoming</span>
+              </div>
+              <div class="airplane-time fn-clear">
+                <p class="fn-left">June 15, 2015 12:00AM</p>
+                <a href="javascript:;" class="details-btn fn-right">Details</a>
+              </div>
             </div>
-          </article>
+          </div>
+          <div class="booking-list fn-clear">
+            <img src="images/my-booking-placeholder2.png" alt="" class="fn-left">
+            <div class="booking-details fn-left">
+              <div class="airplane-address fn-clear">
+                <h5 class="fn-left">Beijing</h5>
+                <span class="fn-right status">upcoming</span>
+              </div>
+              <div class="airplane-time fn-clear">
+                <p class="fn-left">June 15, 2015 12:00AM</p>
+                <a href="javascript:;" class="details-btn fn-right">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="booking-list fn-clear">
+            <img src="images/my-booking-placeholder3.png" alt="" class="fn-left">
+            <div class="booking-details fn-left">
+              <div class="airplane-address fn-clear">
+                <h5 class="fn-left">Beijing</h5>
+                <span class="fn-right status">upcoming</span>
+              </div>
+              <div class="airplane-time fn-clear">
+                <p class="fn-left">June 15, 2015 12:00AM</p>
+                <a href="javascript:;" class="details-btn fn-right">Details</a>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="right-sidebar fn-left">

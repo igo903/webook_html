@@ -1,0 +1,24 @@
+#webUserCenter { background: #f1efef; padding: 28px 0 68px; }
+#webUserCenter .left-sidebar { background: #F1EFEF; }
+#webUserCenter .left-sidebar .user-profile { background: #fff; }
+#webUserCenter .left-sidebar .user-profile .user-avatar { padding: 40px; background: #fbf9f9; text-align: center; }
+#webUserCenter .left-sidebar .user-profile .user-avatar img { text-align: center; }
+#webUserCenter .left-sidebar .user-profile .edit-profile { height: 40px; padding: 0 10px; }
+#webUserCenter .left-sidebar .user-profile .edit-profile span { float: left; width: 50%; line-height: 40px; }
+#webUserCenter .left-sidebar .user-profile .edit-profile span.user-name { font-size: 16px; font-weight: bold; }
+#webUserCenter .left-sidebar .user-profile .edit-profile span.edit { text-align: right; font-size: 13px; }
+#webUserCenter .left-sidebar .user-profile .edit-profile span.edit a { color: #f2785e; }
+#webUserCenter .left-sidebar ul { background: #fff; margin-top: 18px; padding: 10px 0; }
+#webUserCenter .left-sidebar ul li { height: 40px; line-height: 40px; }
+#webUserCenter .left-sidebar ul li a { text-decoration: none; margin: 10px; padding-left: 10px; }
+#webUserCenter .left-sidebar ul li a:hover { background: #f16c4e; color: #fff; }
+#webUserCenter .center-content { padding: 35px 30px; box-sizing: border-box; min-height: 950px; }
+#webUserCenter .center-content h2 { padding-bottom: 26px; border-bottom: 1px solid #b4b4b4; }
+#webUserCenter .center-content .booking-list { padding: 20px 0; border-bottom: 1px solid #b4b4b4; }
+#webUserCenter .center-content .booking-list .booking-details { width: 482px; margin-left: 22px; }
+#webUserCenter .center-content .booking-list .booking-details .airplane-address { margin-bottom: 14px; }
+#webUserCenter .center-content .booking-list .booking-details .airplane-address h5 { font-size: 20px; font-weight: bold; }
+#webUserCenter .center-content .booking-list .booking-details .airplane-address .message-count { font-size: 14px; width: 18px; height: 18px; line-height: 18px; color: #fff; background: #f46c50; text-align: center; border-radius: 50%; display: inline-block; margin-left: 22px; }
+#webUserCenter .center-content .booking-list .booking-details .airplane-address .status { color: #f46c50; font-size: 15px; }
+#webUserCenter .center-content .booking-list .booking-details .airplane-time p { font-size: 16px; }
+#webUserCenter .center-content .booking-list .booking-details .airplane-time .details-btn { width: 70px; height: 30px; line-height: 30px; background: #f46c50; color: #fff; text-align: center; }
