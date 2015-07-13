@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>webusercenter</title>
+  <title>Guide Info</title>
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/main.css">
@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="css/transfer.css">
   <link rel="stylesheet" href="css/webbooktransfer-details.css">
   <link rel="stylesheet" href="css/webusercenter.css">
+
+  <link rel="stylesheet" href="css/guideinfo.css">
 
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/common.js"></script>
@@ -46,72 +48,79 @@
     </div>
   </div>
 
-  <div id="webUserCenter" class="main-content">
+  <dov class="guideinfo-banner">
+    <img src="images/guideinfo-bg.png" alt="" class="full-image">
+  </dov>
+
+  <div id="guideinfo" class="main-content">
     <div class="layout1200 fullOne">
 
-      <div class="usercenter-details-container column-layout">
+      <div class="column-layout">
 
         <div class="left-sidebar fn-left">
           <div class="user-profile">
             <div class="user-avatar">
-              <img src="images/avatar.png" alt="">
+              <img src="images/user-avatar.png" alt="">
             </div>
             <div class="edit-profile">
               <span class="user-name text-center">Louis Wang</span>
-              <span class="edit"><a href="javascript:;">Edit</a></span>
+              <div class="rank">
+                <img src="images/rank.png" alt="">
+                <img src="images/rank.png" alt="">
+                <img src="images/rank.png" alt="">
+              </div>
             </div>
           </div>
 
           <ul>
-            <li><a href="javascript:;">My bookings</a></li>
-            <li><a href="javascript:;">My guides</a></li>
-            <li><a href="javascript:;">Help center</a></li>
-            <li><a href="javascript:;">Log out</a></li>
+            <li class="caption-title"><a href="javascript:;">Tour cities</a></li>
+            <li><a href="javascript:;">Bejing</a></li>
+            <li><a href="javascript:;">Shanghai</a></li>
+          </ul>
+
+          <ul>
+            <li class="caption-title"><a href="javascript:;">Languages</a></li>
+            <li><a href="javascript:;">English</a></li>
+            <li><a href="javascript:;">Mandrain</a></li>
           </ul>
 
         </div>
 
         <div class="center-content fn-left">
-          <h2>My bookings</h2>
-          <div class="booking-list fn-clear">
-            <img src="images/my-booking-placeholder1.png" alt="" class="fn-left">
-            <div class="booking-details fn-left">
-              <div class="airplane-address fn-clear">
-                <h5 class="fn-left">Beijing <span class="message-count">2</span></h5>
-                <span class="fn-right status">upcoming</span>
-              </div>
-              <div class="airplane-time fn-clear">
-                <p class="fn-left">June 15, 2015 12:00AM</p>
-                <a href="javascript:;" class="details-btn fn-right">Details</a>
-              </div>
-            </div>
-          </div>
-          <div class="booking-list fn-clear">
-            <img src="images/my-booking-placeholder2.png" alt="" class="fn-left">
-            <div class="booking-details fn-left">
-              <div class="airplane-address fn-clear">
-                <h5 class="fn-left">Beijing</h5>
-                <span class="fn-right status">upcoming</span>
-              </div>
-              <div class="airplane-time fn-clear">
-                <p class="fn-left">June 15, 2015 12:00AM</p>
-                <a href="javascript:;" class="details-btn fn-right">Details</a>
+         <div class="introduction">
+           <h3>Introduction</h3>
+           <p>Hi, my name is Louis Wang. Welcome to China!  Hi, my name is Louis Wang. Welcome to China! </p>
+         </div>
+
+          <div class="reviews">
+            <h3>Reviews</h3>
+
+            <div class="review-list">
+              <img src="images/avatar-female.png" alt="" class="user-avatar fn-left">
+              <div class="desc fn-left">
+                <div class="star">
+                  <img src="images/icon-star.png" alt="">
+                  <img src="images/icon-star.png" alt="">
+                  <img src="images/icon-star.png" alt="">
+                </div>
+                <p>Hi, my name is Louis Wang. Welcome to China!  Hi, my name is Louis Wang. Welcome to China! </p>
               </div>
             </div>
-          </div>
-          <div class="booking-list fn-clear">
-            <img src="images/my-booking-placeholder3.png" alt="" class="fn-left">
-            <div class="booking-details fn-left">
-              <div class="airplane-address fn-clear">
-                <h5 class="fn-left">Beijing</h5>
-                <span class="fn-right status">upcoming</span>
-              </div>
-              <div class="airplane-time fn-clear">
-                <p class="fn-left">June 15, 2015 12:00AM</p>
-                <a href="javascript:;" class="details-btn fn-right">Details</a>
+
+            <div class="review-list">
+              <img src="images/avatar-female.png" alt="" class="user-avatar fn-left">
+              <div class="desc fn-left">
+                <div class="star">
+                  <img src="images/icon-star.png" alt="">
+                  <img src="images/icon-star.png" alt="">
+                  <img src="images/icon-star.png" alt="">
+                </div>
+                <p>Hi, my name is Louis Wang. Welcome to China!  Hi, my name is Louis Wang. Welcome to China! </p>
               </div>
             </div>
-          </div>
+
+         </div>
+
         </div>
 
         <div class="right-sidebar fn-left">

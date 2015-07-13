@@ -1,0 +1,13 @@
+#guideinfo .left-sidebar .edit-profile { height: 70px; }
+#guideinfo .left-sidebar .edit-profile .user-name { float: none; }
+#guideinfo .left-sidebar ul .caption-title a { font-size: 20px; font-weight: bold; }
+#guideinfo .left-sidebar ul .caption-title a:hover { background: #fff; color: #000; }
+#guideinfo .center-content { padding: 0; background: #F1EFEF; }
+#guideinfo .center-content .introduction { padding: 30px; background: #fff; }
+#guideinfo .center-content .introduction h3 { font-size: 20px; font-weight: bold; margin-bottom: 15px; }
+#guideinfo .center-content .introduction p { font-size: 15px; }
+#guideinfo .center-content .reviews { margin-top: 24px; padding: 20px; background: #fff; min-height: 480px; overflow: hidden; }
+#guideinfo .center-content .reviews h3 { font-size: 20px; font-weight: bold; margin-bottom: 15px; }
+#guideinfo .center-content .reviews .review-list { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #b4b4b4; overflow: hidden; }
+#guideinfo .center-content .reviews .review-list img.user-avatar { margin-right: 10px; }
+#guideinfo .center-content .reviews .review-list .desc { width: 510px; margin-bottom: 8px; }
