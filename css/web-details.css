@@ -1,0 +1,12 @@
+#webDetails .center-content .invoice-col, #webDetails .center-content .guide-fee-col, #webDetails .center-content .other-fee-col, #webDetails .center-content .summary-col { margin-bottom: 46px; }
+#webDetails .center-content .invoice-col h2, #webDetails .center-content .guide-fee-col h2, #webDetails .center-content .other-fee-col h2, #webDetails .center-content .summary-col h2 { border-bottom: none; margin-bottom: 15px; padding-bottom: 0; }
+#webDetails .center-content .invoice-col ul li, #webDetails .center-content .guide-fee-col ul li, #webDetails .center-content .other-fee-col ul li, #webDetails .center-content .summary-col ul li { height: 40px; line-height: 40px; color: #666; }
+#webDetails .center-content .invoice-col ul li span, #webDetails .center-content .guide-fee-col ul li span, #webDetails .center-content .other-fee-col ul li span, #webDetails .center-content .summary-col ul li span { display: inline-block; width: 50%; float: left; }
+#webDetails .center-content .invoice-col ul li span:first-child, #webDetails .center-content .guide-fee-col ul li span:first-child, #webDetails .center-content .other-fee-col ul li span:first-child, #webDetails .center-content .summary-col ul li span:first-child { font-size: 15px; }
+#webDetails .center-content .invoice-col ul li span:last-child, #webDetails .center-content .guide-fee-col ul li span:last-child, #webDetails .center-content .other-fee-col ul li span:last-child, #webDetails .center-content .summary-col ul li span:last-child { text-align: right; font-size: 15px; font-weight: bold; }
+#webDetails .center-content .guide-fee-col ul li { margin-bottom: 10px; border-bottom: 1px solid #dcdcdc; }
+#webDetails .center-content .guide-fee-col ul li:last-child { border-bottom: none; }
+#webDetails .center-content .other-fee-col ul li:last-child { border-top: 1px solid #dcdcdc; }
+#webDetails .center-content .summary-col ul li:first-child { border-bottom: 1px solid #dcdcdc; }
+#webDetails .center-content .tips { text-align: center; }
+#webDetails .center-content .confrim-btn { width: 270px; height: 52px; line-height: 52px; margin: 40px auto 0; color: #fff; font-size: 24px; background: #ff6947; text-align: center; display: block; }
