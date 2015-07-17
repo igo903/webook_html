@@ -1,0 +1,83 @@
+#webDetails{
+  .center-content{
+    .invoice-col,
+    .guide-fee-col,
+    .other-fee-col,
+    .summary-col{
+      margin-bottom: 46px;
+      h2{
+        border-bottom: none;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+      }
+      ul{
+        li{
+          height: 40px;
+          line-height: 40px;
+          color: #666;
+          span{
+            display: inline-block;
+            width: 50%;
+            float: left;
+            &:first-child{
+              font-size: 15px;
+            }
+            &:last-child{
+              text-align: right;
+              font-size: 15px;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+
+    .guide-fee-col{
+      ul{
+        li{
+          margin-bottom: 10px;
+          border-bottom: 1px solid #dcdcdc;
+          &:last-child{
+            border-bottom: none;
+          }
+        }
+      }
+    }
+
+    .other-fee-col{
+      ul{
+        li{
+          &:last-child{
+            border-top: 1px solid #dcdcdc;
+          }
+        }
+      }
+    }
+
+    .summary-col{
+      ul{
+        li{
+          &:first-child{
+            border-bottom: 1px solid #dcdcdc;
+          }
+        }
+      }
+    }
+
+    .tips{
+      text-align: center;
+    }
+
+    .confrim-btn{
+      width: 270px;
+      height: 52px;
+      line-height: 52px;
+      margin: 40px auto 0;
+      color: #fff;
+      font-size: 24px;
+      background: #ff6947;
+      text-align: center;
+      display: block;
+    }
+  }
+}
